@@ -1,0 +1,53 @@
+# CLion project files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Build files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.app
+
+# Debugging files
+*.dSYM/
+*.core
+*.stackdump
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Socket-related files (Unix Domain Sockets)
+*.sock
+*.pid
+*.lock
+
+# CLion-specific caches and indexes
+.clion*
+__pycache__/
+.vscode/
